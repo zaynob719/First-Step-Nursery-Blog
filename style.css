@@ -1,0 +1,131 @@
+html {
+    height: 100%
+}
+
+body {
+    background-color:rgb(127, 200, 202);
+    background-image: url(images/background4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: auto;
+    max-width: 100%;
+    box-sizing: inherit;
+    height: auto;
+    display: block;
+}
+
+.container {
+    margin: 0 auto;
+    width: 95%;
+}
+
+header{
+    height: 118px;
+    width: 1024px;
+    text-align: center;
+    position: center;
+}
+
+nav {
+    background-color:rgba(255, 115, 0, 0.493);
+    text-align: center;
+    padding-top:8px;
+    padding-bottom: 8px;
+    padding: .5em;
+    font-weight: 700;
+    text-decoration: underline;
+   
+}
+
+
+main {
+    height: 400px;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 240px;
+    padding-right: 240px;
+}
+
+
+footer {
+    background-color:rgba(128, 0, 128, 0.5);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h1{
+    font-size: 60px;
+    color: white;
+    font-family: Comic sans, Helvetica, sans-serif;
+    display: inline-block;
+
+}
+
+h2{ font-size: 25px;
+    color:white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+.corona {
+    color: red;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 20px;
+    line-height:1.42857143;
+}
+
+a {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+nav a {
+    font-size: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+footer p {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    text-align: center;
+}
+
+.sectionimages{ 
+    height: 500px;
+    width: 1024px;
+}
+.title {
+    text-align: left;
+    background-color: white;
+    width: 950px;
+    height: relative;
+    margin-top: 15px;
+}
+.events{ 
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.events2 {
+    margin-top: 650px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+h5 {
+    color: red; 
+    font-size: 25px; 
+}
+@media (min:60rem) {}
+h1 {font-size: 3.7rem;}
+
+@media (min:60rem)
