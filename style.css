@@ -2,22 +2,31 @@ html {
     height: 100%
 }
 
+
 body {
     background-color:rgb(127, 200, 202);
     background-image: url(images/background4.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    overflow: auto;
-    max-width: 100%;
-    box-sizing: inherit;
-    height: auto;
-    display: block;
+    flex: 1;
+    min-width: 25%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.container {
-    margin: 0 auto;
-    width: 95%;
+@media (max-width: 700px) {
+    .body { min-width: 33.33%;}
+
+}
+
+@media (max-width: 400px) {
+    .body { min-width: 50%;}
+
+}
+
+.container {margin: 0 auto;
+    width: 90%;
 }
 
 header{
@@ -35,8 +44,7 @@ nav {
     padding: .5em;
     font-weight: 700;
     text-decoration: underline;
-   
-}
+   }
 
 
 main {
@@ -55,14 +63,13 @@ footer {
 }
 
 h1{
-    font-size: 60px;
-    color: white;
     font-family: Comic sans, Helvetica, sans-serif;
-    display: inline-block;
+    display:inline-block;
+    text-align: center;
+    color: white;
+    }
 
-}
-
-h2{ font-size: 25px;
+h2{ font-size: 30px;
     color:white;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
@@ -105,27 +112,52 @@ footer p {
 .title {
     text-align: left;
     background-color: white;
-    width: 950px;
-    height: relative;
-    margin-top: 15px;
+    padding: 3em;
+    outline-offset: -2.5em;
+    outline: 2px solid #00ff6c
 }
-.events{ 
+
+
+.events { 
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 .events2 {
-    margin-top: 650px;
+    margin-top: 200px;
 }
 img {
     max-width: 100%;
     height: auto;
+    border: 4px solid black;
+    
+
 }
 h5 {
     color: red; 
     font-size: 25px; 
 }
-@media (min:60rem) {}
-h1 {font-size: 3.7rem;}
+.title p {
+    top: .6em;
+}
+h3 {
+    font-family: fantasy;
+    color: blueviolet;
+    font-size: 30px;
+    text-decoration: underline;
+    font-weight: 800px;
+}
+.story {
+    font-size: 35px;
+    color: rgb(229, 255, 0);
+    font-weight: bold;
+    font-family: cursive;
+    background-color:rosybrown;
+    border: 3px solid white;
+}
 
-@media (min:60rem)
+h1 { font-size: calc(25px + 15vm);}
+body {height: 50vw; width: 100vw;}
+
+@media (max-width: 1140px)
+
